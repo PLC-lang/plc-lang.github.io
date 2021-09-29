@@ -1,12 +1,8 @@
 ---
 layout: default
-title: PLC Lang
 ---
 
-# PLC Lang
-An organization for Open source PLC related projects
-
-## Tools
+## Projects
 
 ### RuSTy
 
