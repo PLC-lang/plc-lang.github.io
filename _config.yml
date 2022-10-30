@@ -1,3 +1,18 @@
-theme: jekyll-theme-architect
-title: [PLC Lang]
-description: [An organization for Open source PLC related projects]
+title: PLC Lang - the world needs more compilers
+description: >
+  This blog about how a couple of inexpirienced guys decided to write a compiler for a
+  IEC 61131-3 languages. "What languages?" you ask? Come in and sit down ...
+# remote_theme: pages-themes/architect@v0.2.0+
+show_excerpts: true
+theme: minima
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+defaults:
+  - scope:
+      path: "_assets/_img"
+    values:
+      image: true
+
+minima:
+  social_links:
+    github: "PLC-lang"
